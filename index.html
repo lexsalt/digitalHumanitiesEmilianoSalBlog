@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Digital Humanites Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-200">
+    <header class="bg-white mb-22">
+      <nav
+        class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-4 border-solid border-slate-100"
+        aria-label="Global"
+      >
+        <div class="flex lg:flex-1">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Sdu</span>
+            <img class="h-8 w-auto rounded-lg m-2" src="./sdu_logo.png" alt="" />
+          </a>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="#project" class="flex justify-center font-semibold leading-6 text-gray-900 rounded-lg py-2 w-28 border-1 border-solid border-slate-100 hover:bg-gray-200"
+            >Project</a
+          >
+          <a href="#testing" class="flex justify-center font-semibold leading-6 text-gray-900 rounded-lg py-2 w-28 border-1 border-solid border-slate-100 hover:bg-gray-200"
+          >Tests</a
+          >
+          <a href="#about" class="flex justify-center font-semibold leading-6 text-gray-900 rounded-lg py-2 w-28 border-1 border-solid border-slate-100 hover:bg-gray-200"
+          >About</a
+          >
+          <a
+            href="#mapping"
+            class="flex justify-center font-semibold leading-6 text-gray-900 rounded-lg py-2 w-28 border-1 border-solid border-slate-100 hover:bg-gray-200"
+            >Mapping</a
+            >
+            <!-- Dropdown Menu -->
+          <div class="relative">
+            <button class="dropdown-toggle hidden lg:flex lg:gap-x-2 align-center justify-center rounded-lg py-2 text-m font-semibold leading-6 text-gray-900 w-36 border-1 border-solid border-slate-100  hover:bg-gray-200">
+              <!-- <span class="pointer-events-none">Services</span> -->
+              Prototypes
+              <svg class="w-4 h-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <title>chevron-down</title>
+                <g fill="none">
+                  <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+              </svg>
+            </button>
+            <div class="dropdown-menu absolute hidden bg-white rounded-b-lg pb-2">
+              <a href="#prototype0" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Prototype 0</a>
+              <a href="#testing" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Prototype 1.0</a>
+              <a href="#prototype2" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Prototype 2.0</a>
+              <a href="#prototype3" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Prototype 3.0</a>
+              <a href="#prototype4" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Prototype 4.0</a>
+            </div>
+          </div>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a
+            href="https://github.com/lexsalt/Microbit-drawing-collab"
+            class="flex justify-center font-semibold leading-6 text-gray-900 rounded-lg py-2 w-28 border-1 border-solid border-slate-100  hover:bg-gray-200"
+            >Github <span aria-hidden="true"></span
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <main class="bg-white">
+      <div class="flex flex-col gap-60 pt-24 divide-y">
+        <section id="project">
+        <div class="mx-auto max-w-7xl pt-8">
+          <h1
+            class="text-4xl font-extrabold leading-10 text-gray-900 pb-8 pb-8"
+          >
+            Collaborative and Weareable Technologies
+          </h1>
+          <p class="mt-2 text-lg leading-7 text-gray-500">
+            The Collaborative and Wearable Technologies project at ITPD, SDU
+            Denmark, aims to innovate the intersection of human-computer
+            interaction and personal technology through interdisciplinary
+            research and design.
+          </p>
+          <h6
+            class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+          >
+           Theme: Synchrony
+          </h6>
+          <p class="mt-2 text-lg leading-7 text-gray-500">
+            The theme of Synchrony explores synchronized movement, interpersonal
+            motor coordination, mimesis, and limbic resonance. The project
+            focuses on creating interactive experiences that promote full-body
+            collaborative interactions, real-time tracking, and tangible
+            interactions.
+          <img class="w-full pb-2 pt-8" src="./RobbnMarcus.png" />
+        </div>
+      </section>
+        <!-- </div> -->
+        <section id="prototype0">
+          <div class="mx-auto max-w-7xl pt-8">
+            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
+              Collaborative drawing with Microbits
+            </h1>
+            <h6
+            class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+            >
+            Prototype 0
+          </h6>
+          <p class="mt-2 text-lg leading-7 text-gray-500">
+            The "Collaborative Drawing with Microbits" project at ITPD, SDU
+            Denmark, harnesses the power of multiple Microbit devices to create
+            a unique, interactive drawing experience. Each Microbit, detecting
+            pitch and roll, wirelessly transmits data to a receiver connected to
+            a Node.js server, allowing users to collaboratively draw on a
+            digital canvas in real time.
+          </p>
+          <h6
+          class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+          >
+          Prototype 0
+        </h6>
+        <img class="w-full pb-2 pt-8" src="./first_snapshot.jpg" />
+      </div>
+    </section>
+      <!-- </div> -->
+      <section id="testing">
+          <div class="mx-auto max-w-7xl pt-8">
+            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
+              Testing & Feedback
+            </h1>
+            <p class="mt-2 text-lg leading-7 text-gray-500">
+              Testing the product to identify and fix bugs, ensuring it meets
+              the required standards and functions as intended. Feedback from
+              users provided critical insights into usability and performance,
+              helping to refine and improve the product based on their
+              experience.
+            </p>
+            <h6
+              class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+            >
+              Prototype 1
+            </h6>
+            <img class="w-full pb-2 pt-4" src="./test-1.png" />
+            <img class="w-full pb-2 pt-4" src="./test-2.png" />
+            <img class="w-full pb-2 pt-4" src="./test-3.png" />
+          </div>
+        </section>
+        <!-- </div> -->
+        <section id="about">
+          <div class="mx-auto max-w-7xl pt-8">
+            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
+              How It Works
+            </h1>
+            <img class="w-full pb-2 pt-8 pt-8" src="./github_repo.png" />
+            <h6
+            class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+            >
+            Synchronized Collaborative Interaction:
+          </h6>
+          <p class="mt-2 text-lg leading-7 text-gray-500">
+            Two children must work together to manipulate the giant pencil. One
+            child controls the button that activates drawing on the screen,
+            while both children need to coordinate their movements to achieve
+            the desired drawing. Real-time Tracking:
+            <br />
+            The pencil is equipped with a micro-bit board with sensors that
+            track its pitch and roll positions. This data is sent to another
+            micro-bit acting as a receiver, which then transmits the information
+            to a Node.js server via a serial port. Data Transmission and
+            Visualization:
+            <br />
+            The Node.js server processes the signals and redirects them via
+            socket to a web browser where a canvas visualizes the movements. The
+            pitch and roll of the pencil are converted into y-axis and x-axis
+            positions on the canvas, respectively.
+          </p>
+          <h6
+          class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+          >
+            Educational Objectives
+          </h6>
+          <p>
+            Our prototype aims to teach children about the importance of
+            synchronized movement and interpersonal motor coordination through
+            play. Here are some key educational benefits:
+          </p>
+          <ul
+          class="list-disc list-inside mt-2 text-lg leading-7 text-gray-500"
+          >
+          <li>
+            Understanding Synchrony: The children learn how their coordinated
+            efforts impact the drawing on the screen. They must communicate
+            and adjust their movements in real-time, fostering an
+            understanding of how synchronization and teamwork are crucial in
+            achieving a common goal.
+          </li>
+          <li>
+              Proprioception and Balance: As they manipulate the pencil,
+              children gain a better sense of their own body movements and
+              spatial awareness. This hands-on experience enhances their
+              proprioception and balance.
+            </li>
+            <li>
+              Interactive Learning: The immediate visual feedback on the canvas
+              ensures that children can quickly see the results of their
+              actions. This instant response encourages them to experiment and
+              adjust their movements, making the learning process dynamic and
+              engaging.
+            </li>
+          </ul>
+          <h6
+          class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+          >
+          Installation
+        </h6>
+        <p class="mt-2 text-lg leading-7 text-gray-500">
+          <br />
+          On the computer:
+          <br />
+          <code
+          >Clone<a
+          href="https://github.com/lexsalt/Microbit-drawing-collab"
+          class="text-md font-semibold leading-6 text-gray-900"
+          >
+          this <span aria-hidden="true"></span
+            ></a>
+              repository to your local machine.</code
+              >
+              <br />
+              <code
+              >Install the required dependencies by running npm install.</code
+              >
+              <br />
+              <code>Configure port following the instructions on index.js.</code>
+              <br />
+              <code>Start the server by running npm start.</code>
+            </p>
+            <h6
+            class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+            >
+            Microbit Setup
+          </h6>
+          <p class="mt-2 text-lg leading-7 text-gray-500">
+            We need 2 microbits:
+            <br />
+            <ul>
+              <li>Transmitter that sends the pitch and roll signals</li>
+              <li>Receiver that redirects the signal via Usb to the computer</li>
+            </ul>
+            Install the code describe on the "Readme.md" file and follow the instructions to connect and monitor your micro:bit devices.
+          </p>
+          <h6
+          class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+          >
+          Usage
+          </h6>
+          <p class="mt-2 text-lg leading-7 text-gray-500">
+            Open your web browser and navigate to the URL where the server is
+            running.
+            <br />
+            Follow the on-screen instructions to connect and monitor your
+            micro:bit devices.
+          </p>
+        </div>
+      </section>
+        <!-- </div> -->
+        <section id="mapping">
+          <div class="mx-auto max-w-7xl pt-8">
+            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
+              Design Space mapping.
+            </h1>
+            <p class="mt-2 text-lg leading-7 text-gray-500">
+              Presentation of Iterative map develpment
+            </p>
+            <h6
+              class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-6"
+            >
+              After consultation with the professor we upgraded to mapping to contemplate all the Prototypes:
+            </h6>
+            <img
+              class="w-full"
+              src="./mapping-2.png"
+              style="border: 1px black solid; border-radius: 10px"
+            />
+          </div>
+        </section>
+        <!-- </div> -->
+        <section id="mapping">
+          <div class="mx-auto max-w-7xl pt-8">
+            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
+              Design Space mapping Iteration.
+            </h1>
+            <p class="mt-2 text-lg leading-7 text-gray-500">
+              Presentation of Iterative map develpment
+            </p>
+            <h6
+              class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-6"
+            >
+              Submitted Deliverable 1:
+            </h6>
+            <img
+              class="w-full"
+              src="./Mapping.png"
+              style="border: 1px black solid; border-radius: 10px"
+            />
+          </div>
+        </section>
+        <!-- </div> -->
+        <section id="prototype2">
+          <div class="mx-auto max-w-7xl pt-8">
+            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
+              Design & Development update
+            </h1>
+            <p class="mt-2 text-lg leading-7 text-gray-500">
+              Incorporating the positive feedback from the professor, we enhanced
+              the project by focusing on the embodied collaborative experience of
+              nine-year-old users. We introduced a giant pencil with two buttons,
+              one at each end, connected to a micro . This setup encourages
+              children to work together, using the buttons to interact with the
+              device. By integrating this tactile, cooperative element, we aim to
+              foster teamwork and active participation, making the learning
+              process more engaging and interactive. The pencil serves as a
+              familiar and fun tool, transforming the educational experience into
+              a collaborative adventure.
+            </p>
+            <h6
+            class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+            >
+            Prototype 2
+          </h6>
+          <img class="w-full pb-2 pt-8" src="./pencil2.jpg" />
+          <img class="w-full pb-2 pt-8" src="./prototype2.0.png" />
+        </div>
+      </section>
+        <!-- </div> -->
+        <section id="prototype3">
+          <div class="mx-auto max-w-7xl pt-8">
+            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
+              Synchrony
+            </h1>
+            <h6
+            class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-6"
+            >
+            Synchrony Theme
+          </h6>
+          <p class="mt-2 text-lg leading-7 text-gray-500">
+            After careful consideration, we chose the theme of Synchrony,
+            including synchronized movement, interpersonal motor coordination,
+            mimesis, and limbic resonance. The prototype new iteration is the
+            addition of a giant pencil that requires the collaboration of two
+            children to operate. This design is intended to promote full-body
+            collaborative interactions for a series of prototypes that provide
+            meaningful, real-time tracking and tangible interactions.
+            <br />
+            <br />
+            <b>How It Works</b><br />
+            Collaborative Interaction: Two children must work together to
+            manipulate the pencil. One child controls the button that activates
+            drawing on the screen, while both children need to coordinate their
+            movements to achieve the desired drawing.
+            <br />
+            <br />
+            <b>Real-time Tracking</b><br />
+            The pencil is equipped with a micro-bit board with sensors that
+            track its pitch and roll positions. This data is sent to another
+            micro-bit acting as a receiver, which then transmits the information
+            to a Node.js server via a serial port. The Node.js server processes
+            the signals and redirects them via socket to a web browser where a
+            canvas visualizes the movements.
+            <br />
+            The pitch and roll of the pencil are converted into y-axis and
+            x-axis positions on the canvas, respectively. Educational Objectives
+            Our prototype aims to teach children about the importance of
+            synchronized movement and interpersonal motor coordination through
+            play.
+            <br />
+            <br />
+            <b>Understanding Synchrony</b><br />
+            The children learn how their coordinated efforts impact the drawing
+            on the screen. They must communicate and adjust their movements in
+            real-time, fostering an understanding of how synchronization and
+            teamwork are crucial in achieving a common goal.
+            <br />
+            As they manipulate the pencil, children gain a better sense of their
+            own body movements and spatial awareness. This hands-on experience
+            enhances their proprioception and balance, crucial components of
+            kinesthetic learning.
+            <br />
+            <br />
+            <b>Interactive Learning:</b><br />
+            The immediate visual feedback on the canvas ensures that children
+            can quickly see the results of their actions. This instant response
+            encourages them to experiment and adjust their movements, making the
+            learning process dynamic and engaging.
+            <br />
+            The prototype is suitable for use in school environments such as
+            classrooms, gyms, and playgrounds. The collaborative nature of the
+            tool encourages social interaction and teamwork, essential skills
+            for young learners. Teacher and Student Involvement: We have
+            incorporated feedback from teachers and engaged with children
+            throughout the development process to ensure the tool is both
+            educational and enjoyable.
+            <br />
+            <br />
+            <b>Prototyping and Iteration:</b><br />
+            the approach involved multiple iterations, allowing us to refine the
+            design based on user feedback and ensure it effectively meets the
+            learning objectives. In conclusion, the prototype is not just a tool
+            for drawing; it is a medium through which children can learn about
+            synchrony, motor coordination, and teamwork. By providing a
+            tangible, interactive, and fun experience, we hope to make learning
+            about the human body and its movements an enjoyable and memorable
+            experience for young students.
+          </p>
+          <h6
+          class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-6"
+          >
+          Prototype 3.0
+        </h6>
+        <img
+        class="w-full pb-2"
+        src="./prototype2.0.png"
+        style="border: 1px black solid; border-radius: 10px"
+        />
+        <img class="w-full pb-2 pt-4" src="./kids0.jpg" />
+        <img class="w-full pb-2 pt-4" src="./kids1.jpg" />
+        <img class="w-full pb-2 pt-4" src="./kids2.png" />
+      </div>
+    </section>
+      <!-- </div> -->
+      <section id="prototype4">
+        <div class="mx-auto max-w-7xl pt-8">
+          <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
+            Design Log Final Iteration
+          </h1>
+          <h6
+          class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-6"
+          >
+          Prototype 4.0 Synchrony theme
+        </h6>
+        <p class="mt-2 text-lg leading-7 text-gray-500">
+          <h6><b>IMPORTANT</b></b></h6><br />
+          <p>
+            If you have the makecode.microbit.org/#editor page open it makes noise to the connection and you have bad line readings. Close all your editors before runnig the node js server.
+          </p>
+          <br />
+          <br />
+          <h6><b>Installation</b></b></h6><br />
+          <b>Only one Micro-bit set up for testing:</b><br />
+<div style="background-color: black; color: white; padding: 5px; margin: 0.1rem;">
+  <code >
+    serial.redirectToUSB()
+    <br />
+    serial.setBaudRate(BaudRate.BaudRate115200)
+    <br />
+    basic.forever(function () {
+      <br />
+      serial.writeLine("p" + input.rotation(Rotation.Pitch))
+      <br />
+      basic.pause(100)
+      <br />
+      serial.writeLine("r" + input.rotation(Rotation.Roll))
+      <br />
+      basic.pause(100) 
+      <br />
+      if (pins.digitalReadPin(DigitalPin.P0) == 1) {
+        <br />
+         serial.writeLine("a" + "0") 
+         <br />
+        } 
+      }
+      )
+  </code>
+</div>
+          <br />
+          <br />
+          <b>On the microbit receiver:</b><br />
+          <div style="background-color: black; color: white; padding: 5px; margin: 0.1rem;">
+            <code >
+              radio.onReceivedValue(function (name, value) {
+                <br />
+                 serial.writeLine("" + name + value) 
+                 <br />
+                }) 
+                <br />
+              radio.setGroup(99) serial.redirectToUSB()
+              <br />
+            </code>
+          </div>
+          
+
+
+          <br />
+          <br />
+          <b>On the microbit Emitter 1:</b><br />
+          <div style="background-color: black; color: white; padding: 5px; margin: 0.1rem;">
+            <code >
+              
+          input.onButtonPressed(Button.A, function () {
+            <br />
+            radio.sendValue("a", 0) 
+            <br />
+          })
+          <br />
+          radio.setGroup(99)
+          <br />
+          serial.redirectToUSB()
+          <br />
+          pins.setPull(DigitalPin.P0, PinPullMode.PullDown)
+          <br />
+          
+          basic.forever(function () {
+            <br />
+            radio.sendValue("p", input.rotation(Rotation.Pitch))
+            <br />
+            basic.pause(100)
+            <br />
+            radio.sendValue("r", input.rotation(Rotation.Roll))
+            <br />
+            basic.pause(100)
+            <br />
+            if (pins.digitalReadPin(DigitalPin.P0) == 1) {
+               <br />
+               radio.sendValue("a", 0)
+               <br />
+              }
+              <br />
+              basic.pause(100) 
+              <br />
+            })
+              <br />
+            </code>
+          </div>
+          <br />
+          <br />
+          <br />
+          <div class="max-w-7xl mb-12">
+          <h6
+          class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-6"
+          >
+          Changes on input Metaphore
+        </h6>
+          <p>
+            After consultation with the professor we agreed that the giant pencil characteristics of product metaphore is not adecuate for an input to this project.  A pencil is typically associated with drawing or writing directly on a surface in close proximity. This physical interaction does not align well with the idea of remotely controlling a screen. 
+            <br>
+            A more contextually relevant metaphor will better represent the remote interaction with the screen, making the user experience more intuitive, therefore I have decided to try different metaphores to see which one is the best fit for the project:
+          </p>
+          <br>
+          <ul>
+            <li>1- Giant Wheel: (similar to etch a sketch but all in one wheel)</li>
+            <li>2- Laser Pointer.</li>
+            <li>3- Bazooka style pointer.</li>
+            <li>4- Virtual Stylus.</li>
+            <li>5- Magic Wand.</li>
+          </ul>
+        </div>
+      <img
+      class="w-full pb-2"
+      src="./DrawPrototypeFinal.png"
+      style="border: 1px black solid; border-radius: 10px"
+      />
+    </div>
+  </section>
+      <!-- </div> -->
+      <div class="mx-auto max-w-7xl pt-8">
+          <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
+            Schedule
+          </h1>
+          <p class="mt-2 text-lg leading-7 text-gray-500">
+            The project is divided into three main phases: design, development,
+            and testing. Each phase is further broken down into smaller tasks
+            and milestones, with deadlines set to ensure timely completion of
+            the project. The schedule is designed to provide a clear roadmap for
+            the project team, helping to manage time and resources effectively.
+          </p>
+          <h6
+            class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-6"
+          >
+            Upcoming schedule:
+          </h6>
+          <img
+            class="w-full pb-2"
+            src="./schedule1.png"
+            style="border: 1px black solid; border-radius: 10px"
+          />
+        </div>
+        <!-- </div> -->
+      </div>
+    </main>
+    <footer class="bg-white pt-24">
+      <div class="mx-auto max-w-7xl pt-8 p-6 lg:px-8">
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+          <div class="flex flex-col justify-center align-center">
+            <h2 class="text-2xl font-bold leading-8 text-gray-900">About Us</h2>
+            <p class="mt-2 text-lg leading-7 text-gray-500">
+              This is a blog that documents my journey through the Digital humanities course
+            </p>
+          </div>
+          <div class="flex flex-col justify-center">
+            <h2 class="text-2xl font-bold leading-8 text-gray-900">
+              Contact Us
+            </h2>
+            <p class="mt-2 text-lg leading-7 text-gray-500">
+              Universitetsparken 1, 6000 Kolding - Syddansk Universitet Kolding,
+              adresse
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
