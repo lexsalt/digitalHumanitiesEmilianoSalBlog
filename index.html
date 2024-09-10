@@ -33,22 +33,14 @@
           <a href="#project" class="flex justify-center font-semibold leading-6 text-gray-900 rounded-lg py-2 w-28 border-1 border-solid border-slate-100 hover:bg-gray-200"
             >Project</a
           >
-          <a href="#testing" class="flex justify-center font-semibold leading-6 text-gray-900 rounded-lg py-2 w-28 border-1 border-solid border-slate-100 hover:bg-gray-200"
-          >Tests</a
-          >
           <a href="#about" class="flex justify-center font-semibold leading-6 text-gray-900 rounded-lg py-2 w-28 border-1 border-solid border-slate-100 hover:bg-gray-200"
           >About</a
           >
-          <a
-            href="#mapping"
-            class="flex justify-center font-semibold leading-6 text-gray-900 rounded-lg py-2 w-28 border-1 border-solid border-slate-100 hover:bg-gray-200"
-            >Mapping</a
-            >
             <!-- Dropdown Menu -->
           <div class="relative">
             <button class="dropdown-toggle hidden lg:flex lg:gap-x-2 align-center justify-center rounded-lg py-2 text-m font-semibold leading-6 text-gray-900 w-36 border-1 border-solid border-slate-100  hover:bg-gray-200">
               <!-- <span class="pointer-events-none">Services</span> -->
-              Prototypes
+              Classes
               <svg class="w-4 h-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                 <title>chevron-down</title>
                 <g fill="none">
@@ -57,11 +49,10 @@
               </svg>
             </button>
             <div class="dropdown-menu absolute hidden bg-white rounded-b-lg pb-2">
-              <a href="#prototype0" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Prototype 0</a>
-              <a href="#testing" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Prototype 1.0</a>
-              <a href="#prototype2" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Prototype 2.0</a>
-              <a href="#prototype3" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Prototype 3.0</a>
-              <a href="#prototype4" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Prototype 4.0</a>
+              <a href="#class1" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Class 1</a>
+              <a href="#class2" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Class 2</a>
+              <a href="#class3" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Class 3</a>
+              <a href="#class4" class="text-sm font-semibold leading-6 text-gray-900 block px-6 py-2 hover:bg-gray-200 border-1 border-solid rounded-lg border-slate-100">Class 4</a>
             </div>
           </div>
         </div>
@@ -81,46 +72,153 @@
           <h1
             class="text-4xl font-extrabold leading-10 text-gray-900 pb-8 pb-8"
           >
-            Collaborative and Weareable Technologies
+            Digital Humanities Blog
           </h1>
           <p class="mt-2 text-lg leading-7 text-gray-500">
-            The Collaborative and Wearable Technologies project at ITPD, SDU
-            Denmark, aims to innovate the intersection of human-computer
-            interaction and personal technology through interdisciplinary
-            research and design.
+            Use Digital tools to solve Humanities problems.
           </p>
           <h6
             class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
           >
-           Theme: Synchrony
+           Theme: to be determined
           </h6>
           <p class="mt-2 text-lg leading-7 text-gray-500">
-            The theme of Synchrony explores synchronized movement, interpersonal
-            motor coordination, mimesis, and limbic resonance. The project
-            focuses on creating interactive experiences that promote full-body
-            collaborative interactions, real-time tracking, and tangible
-            interactions.
+            For the final project we have to use digital tools to solve one humanities problem.
           <img class="w-full pb-2 pt-8" src="./RobbnMarcus.png" />
         </div>
       </section>
+              <!-- </div> -->
+              <section id="about">
+                <div class="mx-auto max-w-7xl pt-8">
+                  <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
+                    How It Works
+                  </h1>
+                  <img class="w-full pb-2 pt-8 pt-8" src="./github_repo.png" />
+                  <h6
+                  class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+                  >
+                  Synchronized Collaborative Interaction:
+                </h6>
+                <p class="mt-2 text-lg leading-7 text-gray-500">
+                  Two children must work together to manipulate the giant pencil. One
+                  child controls the button that activates drawing on the screen,
+                  while both children need to coordinate their movements to achieve
+                  the desired drawing. Real-time Tracking:
+                  <br />
+                  The pencil is equipped with a micro-bit board with sensors that
+                  track its pitch and roll positions. This data is sent to another
+                  micro-bit acting as a receiver, which then transmits the information
+                  to a Node.js server via a serial port. Data Transmission and
+                  Visualization:
+                  <br />
+                  The Node.js server processes the signals and redirects them via
+                  socket to a web browser where a canvas visualizes the movements. The
+                  pitch and roll of the pencil are converted into y-axis and x-axis
+                  positions on the canvas, respectively.
+                </p>
+                <h6
+                class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+                >
+                  Educational Objectives
+                </h6>
+                <p>
+                  Our prototype aims to teach children about the importance of
+                  synchronized movement and interpersonal motor coordination through
+                  play. Here are some key educational benefits:
+                </p>
+                <ul
+                class="list-disc list-inside mt-2 text-lg leading-7 text-gray-500"
+                >
+                <li>
+                  Understanding Synchrony: The children learn how their coordinated
+                  efforts impact the drawing on the screen. They must communicate
+                  and adjust their movements in real-time, fostering an
+                  understanding of how synchronization and teamwork are crucial in
+                  achieving a common goal.
+                </li>
+                <li>
+                    Proprioception and Balance: As they manipulate the pencil,
+                    children gain a better sense of their own body movements and
+                    spatial awareness. This hands-on experience enhances their
+                    proprioception and balance.
+                  </li>
+                  <li>
+                    Interactive Learning: The immediate visual feedback on the canvas
+                    ensures that children can quickly see the results of their
+                    actions. This instant response encourages them to experiment and
+                    adjust their movements, making the learning process dynamic and
+                    engaging.
+                  </li>
+                </ul>
+                <h6
+                class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+                >
+                Installation
+              </h6>
+              <p class="mt-2 text-lg leading-7 text-gray-500">
+                <br />
+                On the computer:
+                <br />
+                <code
+                >Clone<a
+                href="https://github.com/lexsalt/Microbit-drawing-collab"
+                class="text-md font-semibold leading-6 text-gray-900"
+                >
+                this <span aria-hidden="true"></span
+                  ></a>
+                    repository to your local machine.</code
+                    >
+                    <br />
+                    <code
+                    >Install the required dependencies by running npm install.</code
+                    >
+                    <br />
+                    <code>Configure port following the instructions on index.js.</code>
+                    <br />
+                    <code>Start the server by running npm start.</code>
+                  </p>
+                  <h6
+                  class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+                  >
+                  Microbit Setup
+                </h6>
+                <p class="mt-2 text-lg leading-7 text-gray-500">
+                  We need 2 microbits:
+                  <br />
+                  <ul>
+                    <li>Transmitter that sends the pitch and roll signals</li>
+                    <li>Receiver that redirects the signal via Usb to the computer</li>
+                  </ul>
+                  Install the code describe on the "Readme.md" file and follow the instructions to connect and monitor your micro:bit devices.
+                </p>
+                <h6
+                class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
+                >
+                Usage
+                </h6>
+                <p class="mt-2 text-lg leading-7 text-gray-500">
+                  Open your web browser and navigate to the URL where the server is
+                  running.
+                  <br />
+                  Follow the on-screen instructions to connect and monitor your
+                  micro:bit devices.
+                </p>
+              </div>
+            </section>
         <!-- </div> -->
-        <section id="prototype0">
+        <section id="class1">
           <div class="mx-auto max-w-7xl pt-8">
             <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
-              Collaborative drawing with Microbits
+              Class One
             </h1>
             <h6
             class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
             >
-            Prototype 0
+            Digital Humanities. (Tuesday September 3) - U70 Classroom.
           </h6>
           <p class="mt-2 text-lg leading-7 text-gray-500">
-            The "Collaborative Drawing with Microbits" project at ITPD, SDU
-            Denmark, harnesses the power of multiple Microbit devices to create
-            a unique, interactive drawing experience. Each Microbit, detecting
-            pitch and roll, wirelessly transmits data to a receiver connected to
-            a Node.js server, allowing users to collaboratively draw on a
-            digital canvas in real time.
+            Why I chose this course.
+            who am I?
           </p>
           <h6
           class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
@@ -130,191 +228,8 @@
         <img class="w-full pb-2 pt-8" src="./first_snapshot.jpg" />
       </div>
     </section>
-      <!-- </div> -->
-      <section id="testing">
-          <div class="mx-auto max-w-7xl pt-8">
-            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
-              Testing & Feedback
-            </h1>
-            <p class="mt-2 text-lg leading-7 text-gray-500">
-              Testing the product to identify and fix bugs, ensuring it meets
-              the required standards and functions as intended. Feedback from
-              users provided critical insights into usability and performance,
-              helping to refine and improve the product based on their
-              experience.
-            </p>
-            <h6
-              class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
-            >
-              Prototype 1
-            </h6>
-            <img class="w-full pb-2 pt-4" src="./test-1.png" />
-            <img class="w-full pb-2 pt-4" src="./test-2.png" />
-            <img class="w-full pb-2 pt-4" src="./test-3.png" />
-          </div>
-        </section>
         <!-- </div> -->
-        <section id="about">
-          <div class="mx-auto max-w-7xl pt-8">
-            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
-              How It Works
-            </h1>
-            <img class="w-full pb-2 pt-8 pt-8" src="./github_repo.png" />
-            <h6
-            class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
-            >
-            Synchronized Collaborative Interaction:
-          </h6>
-          <p class="mt-2 text-lg leading-7 text-gray-500">
-            Two children must work together to manipulate the giant pencil. One
-            child controls the button that activates drawing on the screen,
-            while both children need to coordinate their movements to achieve
-            the desired drawing. Real-time Tracking:
-            <br />
-            The pencil is equipped with a micro-bit board with sensors that
-            track its pitch and roll positions. This data is sent to another
-            micro-bit acting as a receiver, which then transmits the information
-            to a Node.js server via a serial port. Data Transmission and
-            Visualization:
-            <br />
-            The Node.js server processes the signals and redirects them via
-            socket to a web browser where a canvas visualizes the movements. The
-            pitch and roll of the pencil are converted into y-axis and x-axis
-            positions on the canvas, respectively.
-          </p>
-          <h6
-          class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
-          >
-            Educational Objectives
-          </h6>
-          <p>
-            Our prototype aims to teach children about the importance of
-            synchronized movement and interpersonal motor coordination through
-            play. Here are some key educational benefits:
-          </p>
-          <ul
-          class="list-disc list-inside mt-2 text-lg leading-7 text-gray-500"
-          >
-          <li>
-            Understanding Synchrony: The children learn how their coordinated
-            efforts impact the drawing on the screen. They must communicate
-            and adjust their movements in real-time, fostering an
-            understanding of how synchronization and teamwork are crucial in
-            achieving a common goal.
-          </li>
-          <li>
-              Proprioception and Balance: As they manipulate the pencil,
-              children gain a better sense of their own body movements and
-              spatial awareness. This hands-on experience enhances their
-              proprioception and balance.
-            </li>
-            <li>
-              Interactive Learning: The immediate visual feedback on the canvas
-              ensures that children can quickly see the results of their
-              actions. This instant response encourages them to experiment and
-              adjust their movements, making the learning process dynamic and
-              engaging.
-            </li>
-          </ul>
-          <h6
-          class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
-          >
-          Installation
-        </h6>
-        <p class="mt-2 text-lg leading-7 text-gray-500">
-          <br />
-          On the computer:
-          <br />
-          <code
-          >Clone<a
-          href="https://github.com/lexsalt/Microbit-drawing-collab"
-          class="text-md font-semibold leading-6 text-gray-900"
-          >
-          this <span aria-hidden="true"></span
-            ></a>
-              repository to your local machine.</code
-              >
-              <br />
-              <code
-              >Install the required dependencies by running npm install.</code
-              >
-              <br />
-              <code>Configure port following the instructions on index.js.</code>
-              <br />
-              <code>Start the server by running npm start.</code>
-            </p>
-            <h6
-            class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
-            >
-            Microbit Setup
-          </h6>
-          <p class="mt-2 text-lg leading-7 text-gray-500">
-            We need 2 microbits:
-            <br />
-            <ul>
-              <li>Transmitter that sends the pitch and roll signals</li>
-              <li>Receiver that redirects the signal via Usb to the computer</li>
-            </ul>
-            Install the code describe on the "Readme.md" file and follow the instructions to connect and monitor your micro:bit devices.
-          </p>
-          <h6
-          class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-0"
-          >
-          Usage
-          </h6>
-          <p class="mt-2 text-lg leading-7 text-gray-500">
-            Open your web browser and navigate to the URL where the server is
-            running.
-            <br />
-            Follow the on-screen instructions to connect and monitor your
-            micro:bit devices.
-          </p>
-        </div>
-      </section>
-        <!-- </div> -->
-        <section id="mapping">
-          <div class="mx-auto max-w-7xl pt-8">
-            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
-              Design Space mapping.
-            </h1>
-            <p class="mt-2 text-lg leading-7 text-gray-500">
-              Presentation of Iterative map develpment
-            </p>
-            <h6
-              class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-6"
-            >
-              After consultation with the professor we upgraded to mapping to contemplate all the Prototypes:
-            </h6>
-            <img
-              class="w-full"
-              src="./mapping-2.png"
-              style="border: 1px black solid; border-radius: 10px"
-            />
-          </div>
-        </section>
-        <!-- </div> -->
-        <section id="mapping">
-          <div class="mx-auto max-w-7xl pt-8">
-            <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
-              Design Space mapping Iteration.
-            </h1>
-            <p class="mt-2 text-lg leading-7 text-gray-500">
-              Presentation of Iterative map develpment
-            </p>
-            <h6
-              class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-6"
-            >
-              Submitted Deliverable 1:
-            </h6>
-            <img
-              class="w-full"
-              src="./Mapping.png"
-              style="border: 1px black solid; border-radius: 10px"
-            />
-          </div>
-        </section>
-        <!-- </div> -->
-        <section id="prototype2">
+        <section id="class2">
           <div class="mx-auto max-w-7xl pt-8">
             <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
               Design & Development update
@@ -341,7 +256,7 @@
         </div>
       </section>
         <!-- </div> -->
-        <section id="prototype3">
+        <section id="class3">
           <div class="mx-auto max-w-7xl pt-8">
             <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
               Synchrony
@@ -436,7 +351,7 @@
       </div>
     </section>
       <!-- </div> -->
-      <section id="prototype4">
+      <section id="class4">
         <div class="mx-auto max-w-7xl pt-8">
           <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
             Design Log Final Iteration
@@ -569,29 +484,6 @@
       />
     </div>
   </section>
-      <!-- </div> -->
-      <div class="mx-auto max-w-7xl pt-8">
-          <h1 class="text-4xl font-extrabold leading-10 text-gray-900 pb-8">
-            Schedule
-          </h1>
-          <p class="mt-2 text-lg leading-7 text-gray-500">
-            The project is divided into three main phases: design, development,
-            and testing. Each phase is further broken down into smaller tasks
-            and milestones, with deadlines set to ensure timely completion of
-            the project. The schedule is designed to provide a clear roadmap for
-            the project team, helping to manage time and resources effectively.
-          </p>
-          <h6
-            class="text-3xl font-extrabold leading-10 text-gray-900 pt-8 pb-6"
-          >
-            Upcoming schedule:
-          </h6>
-          <img
-            class="w-full pb-2"
-            src="./schedule1.png"
-            style="border: 1px black solid; border-radius: 10px"
-          />
-        </div>
         <!-- </div> -->
       </div>
     </main>
